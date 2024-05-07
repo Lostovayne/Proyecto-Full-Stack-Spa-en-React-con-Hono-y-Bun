@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Hono React Full Stack",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

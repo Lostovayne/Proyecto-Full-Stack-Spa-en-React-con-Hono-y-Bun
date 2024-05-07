@@ -1,0 +1,18 @@
+meta {
+  name: Create Expense
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{local_host}}/expenses
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title":"some expense",
+    "amount":"1234"
+  }
+}
