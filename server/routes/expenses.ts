@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import { expenseSchema, createPostSchema } from "../schema";
+import { expenseSchema, createPostSchema } from "../../schema";
 import { zValidator } from "@hono/zod-validator";
 import { z } from "zod";
 

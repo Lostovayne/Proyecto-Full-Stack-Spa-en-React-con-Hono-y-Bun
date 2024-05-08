@@ -4,8 +4,6 @@ import { expensesRoutes } from "./routes/expenses";
 
 const app = new Hono();
 
-
-
 // middleware de registro
 app.use("*", logger());
 
